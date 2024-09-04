@@ -11,7 +11,7 @@ public:
         vector<vector<int>>dist(n, vector<int>(n, INF));
         priority_queue<pp, vector<pp>, greater<pp>> pq;
 
-        dist[0][0] = G[0][0]; // source is (0, 0)
+        dist[0][0] = G[0][0];
         pq.push(MP(dist[0][0], MP(0, 0)));
 
         while(!pq.empty()) {
