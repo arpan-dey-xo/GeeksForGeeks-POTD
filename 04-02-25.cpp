@@ -17,6 +17,6 @@ class Solution {
         solve(root,d);
         
         return d-1;
-        
+
     }
 };
